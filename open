@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# REMOVE DS_STORE-CRAP FROM FOLDER
+find . -name ".DS_Store" -delete
+
+# OPEN VSCODE
+code .
+
+# OPEN GITKRAKEN
+open -na 'GitKraken' --args -p $(pwd)

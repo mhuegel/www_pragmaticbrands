@@ -1,0 +1,26 @@
+// BTN RESET
+button,
+input[type="submit"] {
+	border: none;
+	border-radius: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	overflow: visible;
+
+	background: transparent;
+
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	-webkit-appearance: none;
+}
+
+input[type="submit"],
+.btn {
+	color: white;
+	padding: 1rem;
+	background: blue;
+	display: inline-flex;
+	border-radius: 5px;
+}

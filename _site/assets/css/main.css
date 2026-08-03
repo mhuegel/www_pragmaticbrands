@@ -1,6 +1,30 @@
+button,
+input[type=submit] {
+  border: none;
+  border-radius: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-appearance: none;
+}
+
+input[type=submit],
+.btn {
+  color: white;
+  padding: 1rem;
+  background: blue;
+  display: inline-flex;
+  border-radius: 5px;
+}
+
 body {
   background: #ffffff;
-  color: #000000;
+  color: red;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 

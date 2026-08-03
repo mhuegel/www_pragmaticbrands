@@ -1,0 +1,92 @@
+body {
+	font-family: "Space Mono", monospace;
+}
+
+// HEADLINES
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+.rte h1,
+.h1,
+.rte h2,
+.h2,
+.rte h3,
+.h3,
+.rte h4,
+.h4,
+.rte h5,
+.h5,
+.rte h6,
+.h6 {
+	font-weight: bold;
+	line-height: 1.2;
+	margin-bottom: 0.5em;
+}
+
+.rte h1,
+.h1 {
+	font-size: 2.4em;
+}
+
+.rte h2,
+.h2 {
+	font-size: 2em;
+}
+
+.rte h3,
+.h3 {
+	font-size: 1.6em;
+}
+
+.rte h4,
+.h4 {
+	font-size: 1.4em;
+}
+
+.rte h5,
+.h5 {
+	font-size: 1.2em;
+}
+
+.rte h6,
+.h6 {
+	font-size: 1em;
+}
+
+// TEXT
+p {
+	margin-bottom: 0.5em;
+}
+
+.rte p {
+	margin-bottom: 1em;
+}
+
+::selection {
+	background: yellow;
+	color: $black;
+}
+
+// TEXT AUSRICHTUNG
+.text--center {
+	text-align: center;
+}
+
+small,
+.font--small {
+	font-size: 0.8em;
+}
+
+blockquote {
+	font-style: italic;
+
+	cite {
+		@extend .font--small;
+	}
+}

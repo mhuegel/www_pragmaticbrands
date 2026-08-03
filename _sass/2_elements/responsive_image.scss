@@ -1,0 +1,18 @@
+.imgwrap {
+	padding-bottom: 100%;
+	width: 100%;
+
+	display: block;
+	position: relative;
+
+	overflow: hidden;
+	text-align: left !important;
+
+	background: rgba($black, 0.1);
+
+	img {
+		position: absolute;
+		display: block;
+		width: 100%;
+	}
+}

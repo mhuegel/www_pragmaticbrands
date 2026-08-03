@@ -1,0 +1,11 @@
+$iconsize: 1em;
+
+svg.icon {
+	width: $iconsize;
+	height: $iconsize;
+
+
+	&, path {
+		fill: currentColor !important;
+	}
+}
