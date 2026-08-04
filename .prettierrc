@@ -1,0 +1,13 @@
+{
+	"plugins": ["@shopify/prettier-plugin-liquid"],
+	"tabWidth": 4,
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": "*.js",
+			"options": {
+				"singleQuote": true
+			}
+		}
+	]
+}
