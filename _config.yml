@@ -6,3 +6,13 @@ sass:
     style: compressed
     silence_deprecations:
         - import
+
+include:
+    - _pages
+
+defaults:
+    - scope:
+          path: "_pages"
+      values:
+          layout: default
+          permalink: /:basename/index.html
