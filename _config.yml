@@ -4,3 +4,5 @@ title: "pragmaticbrands.de"
 lang: "de"
 sass:
     style: compressed
+    silence_deprecations:
+        - import
